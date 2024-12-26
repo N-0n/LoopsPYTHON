@@ -27,7 +27,18 @@ if c==2:
 else:
     print(N,"is composite number")
 
-    
-'''
 
 #3) summation of N natural numbers
+
+sum=0
+N=int(input("Enter N : "))
+for i in range(1,N+1) :
+    sum = sum + i
+print(sum)
+
+
+'''
+for i in range(1,4):
+    for j in range(0,6): #for each value of i,j's loop will run fully
+        print('+',end=' ')
+    print()
